@@ -41,7 +41,7 @@ async (req: Request, res: Response) => {
     jwt: userJwt,
   };
 
-  res.status(201).send(existingUser);
+  res.status(200).send(existingUser);
 });
 
 export { router as signinRouter };
