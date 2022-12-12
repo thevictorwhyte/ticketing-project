@@ -1,6 +1,6 @@
 const Banana = () => {
   return (
-    <h1>Banana page</h1>
+    <h1>Banana page2</h1>
   )
 }
 
