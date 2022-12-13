@@ -1,7 +1,16 @@
-const Index = () => {
-  return (
-    <h1>Landing page</h1>
-  )
-}
+import buildClient from '../api/buildClient';
 
-export default Index;
+const LandingPage = ({ currentUser }) => {
+  console.log(currentUser);
+
+  return <h1>Landing page</h1>;
+};
+
+LandingPage.getInitialProps = async (context) => {
+  const client = buildClient(context);
+  const { data } = await client.get('/api/users/currentUser');
+
+  return data;
+};
+
+export default LandingPage;
