@@ -1527,9 +1527,9 @@
     "@types/yargs-parser" "*"
 
 "@vwtickets/common@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@vwtickets/common/-/common-1.0.2.tgz#135dec217d394ebdb1296b88e7da6876a1d26dce"
-  integrity sha512-EyhS8r4vKgZn5PuJ6Y2rgheC6z6Yrdh1tguy8r7gflqBeorxVDQ60IzD8x8ZvlnjJ0huWD0BeaBnPsui0+h3gw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@vwtickets/common/-/common-1.0.3.tgz#f53dfb1772693bfdde652bdda0fc21ce57509196"
+  integrity sha512-l6KLuIusuQZhDXqqP1ik9w6ttRNmOTDERHy6rk+FVL4woJCNnkLqwgBvWt5Pm+7YHVa9F9avbtu4W8JGN6InDg==
   dependencies:
     "@types/cookie-session" "^2.0.44"
     "@types/express" "^4.17.14"
